@@ -1,0 +1,20 @@
+getwd()
+setwd("/Users/Christina/Desktop/ANS 198")
+list.files()
+dogs = readRDS("dogs_full (3).rds")
+colnames(dogs)
+head(dogs)
+head(dogs,10)
+tail(dogs)
+summary(dogs)
+?mean
+?median
+?sd
+?var
+dogs$height
+mean(dogs$height)
+mean(dogs$height, na.rm = TRUE)
+table(dogs$group)
+dogs[1,1]
+dogs[10,2]
+dogs[10,]
